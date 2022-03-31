@@ -14,9 +14,9 @@ engine.runAndWait()
 def fun(url1, text1):
     try:
         engine1 = pyttsx3.init()
-        engine1.say(f"searching for {text1}")
+        engine1.say(f"searching {text1}")
         engine1.runAndWait()
-        chrome_path = "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe"
+        chrome_path = "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
         webbrowser.register('chrome', None, webbrowser.BackgroundBrowser(chrome_path))
         webbrowser.get('chrome').open_new_tab(url1)
 
