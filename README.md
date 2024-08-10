@@ -57,5 +57,3 @@ Contributions are welcome! Please fork the repository and create a pull request 
 For any questions or feedback, please contact [ranjananubhav7@gmail.com](mailto:ranjananubhav7@gmail.com).
 
 ---
-
-Feel free to add or modify sections based on additional details or requirements specific to your project.
